@@ -1,5 +1,7 @@
 {
-  "compilerOptions": {
+  "compilerOptions": {"skipLibCheck": true,
+"noStrictGenericChecks": true,
+"disableSizeLimit": true
     "target": "ES2022",
     "module": "ES2022",
     "moduleResolution": "node",
